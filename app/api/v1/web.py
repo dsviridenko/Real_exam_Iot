@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
 from typing import List
-from app.schemas.item import Vehicle, VehicleCreate
+from app.schemas.vehicle import Vehicle, VehicleCreate
 from app.db.database import vehicle_db
 
 router = APIRouter()

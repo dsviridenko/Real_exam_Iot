@@ -1,4 +1,4 @@
-from app.schemas.item import Vehicle
+from app.schemas.vehicle import Vehicle
 
 
 car1 = Vehicle(
